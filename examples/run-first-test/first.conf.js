@@ -1,6 +1,6 @@
 exports.config = {
-  user: process.env.BROWSERSTACK_USERNAME || 'chgtest1',
-  key: process.env.BROWSERSTACK_ACCESS_KEY || 'KaS1zRAksPsa8RtenETP',
+  user: process.env.BROWSERSTACK_USERNAME || 'username',
+  key: process.env.BROWSERSTACK_ACCESS_KEY || 'password',
 
   updateJob: false,
   specs: [
